@@ -1,0 +1,16 @@
+.example-card{
+    max-width:  400px;;
+    margin:5px
+}
+.example-header-image{
+    background-image: url('http://material.angular.io/assets/img/example/shibai.jpg');
+    background-size: cover;
+}
+.container{
+   flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+.container >* {
+flex: 1 1 300px
+}
